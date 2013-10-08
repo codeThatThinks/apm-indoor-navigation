@@ -138,7 +138,9 @@ The goal of this project is to design and build an autopilot system for multirot
 	- check for damage
 
 
-## Research: Biliography
+## Research: Bibliography
 "RCAPA General Guidelines." Remote Control Aerial Photography Association, n.d. Web. 08 Oct. 2013. [http://www.rcapa.net/guidelines.aspx](http://www.rcapa.net/guidelines.aspx).
+
 "Fact Sheet - Unmanned Aircraft Systems (UAS)." Federal Aviation Administration, July 2011. Web. 08 Oct. 2013. [http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf](http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf).
+
 Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administration, 9 June 1981. Web. 08 Oct. 2013. [http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf](http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf).
