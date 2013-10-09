@@ -72,14 +72,54 @@ The goal of this project is to design and build an autopilot system for multirot
 	- time-of-flight distance measurement
 
 ### Pathfinding and AI
-- https://en.wikipedia.org/wiki/Pathfinding
-- http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf
-- Dijkstra's algorithm
-- A* algorithm
-- D* algorithm
-- jump point search (http://users.cecs.anu.edu.au/~dharabor/data/papers/harabor-grastien-aaai11.pdf)
-- https://en.wikipedia.org/wiki/Tree_traversal
-- https://en.wikipedia.org/wiki/Graph_traversal
+- map all objects detected to avoid them in the future
+
+- find possible paths instead of objects
+	- known starting location is requied
+	- first examine possible paths from starting node
+	- create nodes at end of possible paths, examine paths from there
+	- continually examine new nodes and paths until final destination is reached
+	- always pick nodes of shortest length
+	- not ideal in tight spaces, aka unneccessary nodes
+
+- landmark navigation
+	- known artifcial landmarks
+	- learn possible paths
+
+- finding shortest path: graph search algorithms
+	- intersection, road and map = vertex, edge and graph
+	
+	- Bellman-Ford algorithm
+		- slower than Dijkstra's algorithm
+		- supports negative edge weights
+
+	- Dijkstra's algorithm
+		- fastest single-source shortest-path algorithm for arbitrary directed graphs
+		- non-negative edge weights
+		- evaluates open nodes iteratively
+		- searches nodes from start node to goal node
+
+	- A* algorithm
+		- based on Dijkstra's algorithm
+		- faster
+		- uses heuristics
+
+	- D* algorithms
+		- D*
+			- Dynamic A*
+			- nodes to be evaluated: OPEN List
+			- individually evaluates each node, places neighboring nodes on OPEN list
+			- searches backwards from goal node, cost to next node stored in each node (backpointer)
+			- follows backpointers to reach target
+
+		- Focused D*
+			- extension of D*
+			- uses heuristic to focus propagation toward robot
+
+		- D* Lite
+			- not based on D*
+			- same behavior, simpler to understand
+			- implemented in fewer lines of code, as fast or faster than Focused D*
 
 ### UAV Regulations
 - must fly below 400 feet
@@ -149,6 +189,12 @@ Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor
 Lindeberg, Tony. "Scale-space." Wiley Encyclopedia of Computer Science and Engineering. N.p.: John Wiley and Sons, 2008. N. pag. Web. 08 Oct. 2013. [ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf](ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf).
 
 Yapo, Theodore C., Charles V. Stewart, and Richard J. Radke. "A Probabilistic Representation of LiDAR Range Data for Efﬁcient 3D Object Detection." Rensselaer Polytechnic Institute, n.d. Web. 08 Oct. 2013. [http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf](http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf).
+
+Tobias, Stephen J., and A Antonio Arroyo. "Autonomous Pathfinding." University of Florida, 4 May 2000. Web. 08 Oct. 2013. [http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf](http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf).
+
+Stentz, Anthony. "Optimal and Efﬁcient Path Planning for Partially-Known Environments." Carnegie Mellon University, 08 May 1994. Web. 08 Oct. 2013. [http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf](http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf).
+
+Koenig, Sven, and Maxim Likhachev. "Fast Replanning for Navigation in Unknown Terrain." IEEE, n.d. Web. 08 Oct. 2013. [http://pub1.willowgarage.com/~konolige/cs225b/dlite_tro05.pdf](http://pub1.willowgarage.com/~konolige/cs225b/dlite_tro05.pdf).
 
 "RCAPA General Guidelines." Remote Control Aerial Photography Association, n.d. Web. 08 Oct. 2013. [http://www.rcapa.net/guidelines.aspx](http://www.rcapa.net/guidelines.aspx).
 
