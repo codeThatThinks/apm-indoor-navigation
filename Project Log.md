@@ -184,7 +184,7 @@ Pourhomayoun, Mohammad, Zhanpeng Jin, and Mark Fowler. "Spatial Sparsity Based I
 
 Indoor Navigation. German Aerospace Center (DLR), n.d. Web. 08 Oct. 2013. [http://www.kn-s.dlr.de/indoornav/](http://www.kn-s.dlr.de/indoornav/).
 
-Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor Localization For Very Small Devices." University of Southern California, n.d. Web. 08 Oct. 2013. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113).
+Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor Localization For Very Small Devices." University of Southern California, n.d. Web. 08 Oct. 2013. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113&rep=rep1&type=pdf).
 
 Lindeberg, Tony. "Scale-space." Wiley Encyclopedia of Computer Science and Engineering. N.p.: John Wiley and Sons, 2008. N. pag. Web. 08 Oct. 2013. [ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf](ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf).
 
