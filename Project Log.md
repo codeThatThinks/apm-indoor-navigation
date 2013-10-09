@@ -13,15 +13,12 @@ The goal of this project is to design and build an autopilot system for multirot
 
 
 ## Research
+### Quadcopter Absolute Positioning
+#### Orientation
+- magnetometer
+	- measure attitude and orientation
 
-### Quadcopter Absolute Positioning (GPS Alternatives)
-- position (point in 3d space) vs location (point on 2d plane)
-
-- improving GPS accuracy
-	- integration between gps and indoor positioning systems
-	- use of Assisted GPS
-	- increase GPS sensitivity
-
+#### Localization
 - network of low-range receivers
 	- only few receivers detect when in vicinity
 	- aproximate location, low accuracy
@@ -57,19 +54,22 @@ The goal of this project is to design and build an autopilot system for multirot
 	- calculate location based on known original location
 	- suffers from sensor drift
 
-- ultra-wideband
+- barometer, accelrometer, gyroscope
+	- measurement of 3D movement
+	- orientation change
+	- velocity change
 
 ### Detecting Objects
 - optical
 	- visible light
 	- infrared
+	- https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
 
 - radar
-- lidar
-- sonar
-	- ultrasound
 
-- laser rangefinder
+- lidar (laser rangefinder)
+	- distance measurement using lasers
+	- time-of-flight distance measurement
 
 ### Pathfinding and AI
 - https://en.wikipedia.org/wiki/Pathfinding
@@ -97,6 +97,7 @@ The goal of this project is to design and build an autopilot system for multirot
 ### Quadcopter Safety
 - avoid flight over people
 - maintain line-of-sight
+- guard or cover on propellers
 
 - pre-flight:
 	- verify all batteries are charged
@@ -139,6 +140,16 @@ The goal of this project is to design and build an autopilot system for multirot
 
 
 ## Research: Bibliography
+Pourhomayoun, Mohammad, Zhanpeng Jin, and Mark Fowler. "Spatial Sparsity Based Indoor Localization in Wireless Sensor Network for Assistive Healthcare." IEEE, n.d. Web. 08 Oct. 2013. [http://ws2.binghamton.edu/fowler/Spatial%20Sparsity%20Based%20Indoor%20Localization%20in%20Wireless%20Sensor%20Network%20for%20Assistive%20Healthcare%20Systems%20-%20Rev2.pdf](http://ws2.binghamton.edu/fowler/Spatial%20Sparsity%20Based%20Indoor%20Localization%20in%20Wireless%20Sensor%20Network%20for%20Assistive%20Healthcare%20Systems%20-%20Rev2.pdf).
+
+Indoor Navigation. German Aerospace Center (DLR), n.d. Web. 08 Oct. 2013. [http://www.kn-s.dlr.de/indoornav/](http://www.kn-s.dlr.de/indoornav/).
+
+Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor Localization For Very Small Devices." University of Southern California, n.d. Web. 08 Oct. 2013. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113).
+
+Lindeberg, Tony. "Scale-space." Wiley Encyclopedia of Computer Science and Engineering. N.p.: John Wiley and Sons, 2008. N. pag. Web. 08 Oct. 2013. [ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf](ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf).
+
+Yapo, Theodore C., Charles V. Stewart, and Richard J. Radke. "A Probabilistic Representation of LiDAR Range Data for Efﬁcient 3D Object Detection." Rensselaer Polytechnic Institute, n.d. Web. 08 Oct. 2013. [http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf](http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf).
+
 "RCAPA General Guidelines." Remote Control Aerial Photography Association, n.d. Web. 08 Oct. 2013. [http://www.rcapa.net/guidelines.aspx](http://www.rcapa.net/guidelines.aspx).
 
 "Fact Sheet - Unmanned Aircraft Systems (UAS)." Federal Aviation Administration, July 2011. Web. 08 Oct. 2013. [http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf](http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf).
