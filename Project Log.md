@@ -138,6 +138,7 @@ The goal of this project is to design and build an autopilot system for multirot
 - avoid flight over people
 - maintain line-of-sight
 - guard or cover on propellers
+- use breakable, less stiff propellers
 
 - pre-flight:
 	- verify all batteries are charged
