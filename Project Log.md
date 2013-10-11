@@ -205,8 +205,6 @@ Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administ
 
 
 ## Test Procedure
-To check that the system meets the project goals, it will be tested for accuracy of the absolute position of the quadcopter, the ability for the system to accurately detect objects of various sizes as well as objects that change location and size during flight, the ability for the system to accurately determine the best path around detected objects, and the ability for the quadcopter to main strict tolerances when navigating the determined path.
-
 The system will be tested that it is accurately able to determine its absolute location, that is, GPS coordinates, without the use of GPS:  
 1. The coordinates of the ground station will be determined using a proven method, such as GPS.  
 2. The coordinates of the test location will be determined using the same method as was the coordinates of the ground station.  
