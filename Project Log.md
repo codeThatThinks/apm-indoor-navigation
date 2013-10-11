@@ -203,13 +203,40 @@ Koenig, Sven, and Maxim Likhachev. "Fast Replanning for Navigation in Unknown Te
 
 Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administration, 9 June 1981. Web. 08 Oct. 2013. [http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf](http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf).
 
-## Test Procedure
-- report exact location, compare to GPS location
-- present field of objects, compare computed path with reference path
 
-- object tolerance test
-	- fly between objects slightly bigger than width/height (tolerance 5 in)
-	- fly through field of continuously changing objects (e.g. flags)
+## Test Procedure
+To check that the system meets the project goals, it will be tested for accuracy of the absolute position of the quadcopter, the ability for the system to accurately detect objects of various sizes as well as objects that change location and size during flight, the ability for the system to accurately determine the best path around detected objects, and the ability for the quadcopter to main strict tolerances when navigating the determined path.
+
+The system will be tested that it is accurately able to determine its absolute location, that is, GPS coordinates, without the use of GPS:
+1. The coordinates of the ground station will be determined using a proven method, such as GPS.
+2. The coordinates of the test location will be determined using the same method as was the coordinates of the ground station.
+3. The indoor navigation system will be turned on and the quadcopter will be placed at the test location.
+4. The known coordinates of the test location will be compared to the coordinates reported by the system.
+5. The reported coordinates will be deemed accurate if they are within a 1 meter tolerance of the known coordinates.
+
+Secondly, the ability for the system to accurately detect objects will be tested:
+1. Objects ranging from small (less than half a meter) to large (more than 1 meter) will be randomly arranged in an area.
+2. Objects that continually change their location or shape, such as a flag, will also be arranged in the area.
+3. The system will be turned on and the quadcopter will positioned at the edge of the area.
+4. Object locations and sizes reported by the system will be compared to the actual sizes and locations of the objects.
+5. The system will be deemed accurate if all objects are detected and are properly located.
+
+Next, the system will be tested for its ability to determine a correct path through an area of objects:
+1. Objects ranging from small (less than half a meter) to large (more than 1 meter) will be randomly arranged in an area.
+2. Objects that continually change their location or shape, such as a flag, will also be arranged in the area.
+3. The system will be turned on and the quadcopter will positioned at the edge of the area.
+4. The system will begin object detection and report a path through the objects.
+5. A path is deemed correct if it doesn't interfere with any objects and allows the quadcopter to maintain at least a 25 cm distance from any object.
+
+Finally, the ability for the system to properly guide the quadcopter along a determined path will be tested:
+1. Objects ranging from small (less than half a meter) to large (more than 1 meter) will be randomly arranged in an area.
+2. Objects that continually change their location or shape, such as a flag, will also be arranged in the area.
+3. The system will be turned on and the quadcopter will positioned at the edge of the area.
+4. A destination location on the opposite edge of the area will be inputted to the system.
+5. The system will begin object detection and path determination.
+6. The quadcopter will be guided by the system along the determined path towards the destination location. Manual control will always be available for safety purposes.
+6. This test will be successful if the destination location is reached by the quadcopter and that the quadcopter successfully avoids the objects in the area during the flight.
+
 
 ## Risk Assessment
 The quadcopter platform consists of spinning rotors and a considerable electrical system to drive these rotors, each of which has the potential to cause harm to people, property, and itself. The flight control software used to control the quadcopter is still an experimental technology and may act unexpectedly at any time. Failure of any critical system on the quadcopter (i.e. rotors, battery, RF communications, navigation system, etc.) may result in unexpected operation, which may be potentially harmful. The RF system onboard the quadcopter is susceptible to interference, which may prevent monitoring of the quadcopter during operation or the ability to gain manual control of the aircraft in the event of an emergency. The weight of the navigation system being added to the quadcopter is unknown, which could lead to a depletion of battery life faster than intended. This could lead to unstable and unexpected flight. The navigation system guiding the quadcopter may include unexpected bugs and has the potential to malfunction, which may lead the quadcopter on an undesirable and potentially harmful flight path.
