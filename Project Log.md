@@ -202,3 +202,11 @@ Koenig, Sven, and Maxim Likhachev. "Fast Replanning for Navigation in Unknown Te
 "Fact Sheet - Unmanned Aircraft Systems (UAS)." Federal Aviation Administration, July 2011. Web. 08 Oct. 2013. [http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf](http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf).
 
 Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administration, 9 June 1981. Web. 08 Oct. 2013. [http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf](http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf).
+
+## Test Procedure
+- report exact location, compare to GPS location
+- present field of objects, compare computed path with reference path
+
+- object tolerance test
+	- fly between objects slightly bigger than width/height (tolerance 5 in)
+	- fly through field of continously changing objects (e.g. flags)
