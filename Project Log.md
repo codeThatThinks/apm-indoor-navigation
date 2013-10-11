@@ -209,4 +209,4 @@ Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administ
 
 - object tolerance test
 	- fly between objects slightly bigger than width/height (tolerance 5 in)
-	- fly through field of continously changing objects (e.g. flags)
+	- fly through field of continuously changing objects (e.g. flags)
