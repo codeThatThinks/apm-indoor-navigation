@@ -181,27 +181,29 @@ The goal of this project is to design and build an autopilot system for multirot
 
 
 ## Research: Bibliography
-Pourhomayoun, Mohammad, Zhanpeng Jin, and Mark Fowler. "Spatial Sparsity Based Indoor Localization in Wireless Sensor Network for Assistive Healthcare." IEEE, n.d. Web. 08 Oct. 2013. [http://ws2.binghamton.edu/fowler/Spatial%20Sparsity%20Based%20Indoor%20Localization%20in%20Wireless%20Sensor%20Network%20for%20Assistive%20Healthcare%20Systems%20-%20Rev2.pdf](http://ws2.binghamton.edu/fowler/Spatial%20Sparsity%20Based%20Indoor%20Localization%20in%20Wireless%20Sensor%20Network%20for%20Assistive%20Healthcare%20Systems%20-%20Rev2.pdf).
+Pourhomayoun, Mohammad, Zhanpeng Jin, and Mark Fowler. "Spatial Sparsity Based Indoor Localization in Wireless Sensor Network for Assistive Healthcare." IEEE, n.d. Web. 08 Oct. 2013. <http://ws2.binghamton.edu/fowler/Spatial%20Sparsity%20Based%20Indoor%20Localization%20in%20Wireless%20Sensor%20Network%20for%20Assistive%20Healthcare%20Systems%20-%20Rev2.pdf>.
 
-Indoor Navigation. German Aerospace Center (DLR), n.d. Web. 08 Oct. 2013. [http://www.kn-s.dlr.de/indoornav/](http://www.kn-s.dlr.de/indoornav/).
+Indoor Navigation. German Aerospace Center (DLR), n.d. Web. 08 Oct. 2013. <http://www.kn-s.dlr.de/indoornav/>.
 
-Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor Localization For Very Small Devices." University of Southern California, n.d. Web. 08 Oct. 2013. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113&rep=rep1&type=pdf).
+Bulusu, Nirupama, John Heidemann, and Deborah Estrin. "GPS-less Low Cost Outdoor Localization For Very Small Devices." University of Southern California, n.d. Web. 08 Oct. 2013. <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.8113&rep=rep1&type=pdf>.
 
-Lindeberg, Tony. "Scale-space." Wiley Encyclopedia of Computer Science and Engineering. N.p.: John Wiley and Sons, 2008. N. pag. Web. 08 Oct. 2013. [ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf](ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf).
+Lindeberg, Tony. "Scale-space." Wiley Encyclopedia of Computer Science and Engineering. N.p.: John Wiley and Sons, 2008. N. pag. Web. 08 Oct. 2013. <ftp://ftp.nada.kth.se/CVAP/reports/Scale-Space-EncCompSci.pdf>.
 
-Yapo, Theodore C., Charles V. Stewart, and Richard J. Radke. "A Probabilistic Representation of LiDAR Range Data for Efﬁcient 3D Object Detection." Rensselaer Polytechnic Institute, n.d. Web. 08 Oct. 2013. [http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf](http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf).
+Yapo, Theodore C., Charles V. Stewart, and Richard J. Radke. "A Probabilistic Representation of LiDAR Range Data for Efﬁcient 3D Object Detection." Rensselaer Polytechnic Institute, n.d. Web. 08 Oct. 2013. <http://www.ecse.rpi.edu/~rjradke/papers/radkes3d08.pdf>.
 
-Tobias, Stephen J., and A Antonio Arroyo. "Autonomous Pathfinding." University of Florida, 4 May 2000. Web. 08 Oct. 2013. [http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf](http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf).
+Tobias, Stephen J., and A Antonio Arroyo. "Autonomous Pathfinding." University of Florida, 4 May 2000. Web. 08 Oct. 2013. <http://www.mil.ufl.edu/publications/fcrar00/tobias.pdf>.
 
-Stentz, Anthony. "Optimal and Efﬁcient Path Planning for Partially-Known Environments." Carnegie Mellon University, 08 May 1994. Web. 08 Oct. 2013. [http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf](http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf).
+Stentz, Anthony. "Optimal and Efﬁcient Path Planning for Partially-Known Environments." Carnegie Mellon University, 08 May 1994. Web. 08 Oct. 2013. <http://web.mit.edu/16.412j/www/html/papers/original_dstar_icra94.pdf>.
 
-Koenig, Sven, and Maxim Likhachev. "Fast Replanning for Navigation in Unknown Terrain." IEEE, n.d. Web. 08 Oct. 2013. [http://pub1.willowgarage.com/~konolige/cs225b/dlite_tro05.pdf](http://pub1.willowgarage.com/~konolige/cs225b/dlite_tro05.pdf).
+Koenig, Sven, and Maxim Likhachev. "Fast Replanning for Navigation in Unknown Terrain." IEEE, n.d. Web. 08 Oct. 2013. <http://pub1.willowgarage.com/~konolige/cs225b/dlite_tro05.pdf>.
 
-"RCAPA General Guidelines." Remote Control Aerial Photography Association, n.d. Web. 08 Oct. 2013. [http://www.rcapa.net/guidelines.aspx](http://www.rcapa.net/guidelines.aspx).
+"RCAPA General Guidelines." Remote Control Aerial Photography Association, n.d. Web. 08 Oct. 2013. <http://www.rcapa.net/guidelines.aspx>.
 
-"Fact Sheet - Unmanned Aircraft Systems (UAS)." Federal Aviation Administration, July 2011. Web. 08 Oct. 2013. [http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf](http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf).
+"Safety MultiCopter." ArduCopter. 3DRobotics, n.d. Web. 08 Oct. 2013. <http://copter.ardupilot.com/wiki/safety-multicopter/>.
 
-Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administration, 9 June 1981. Web. 08 Oct. 2013. [http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf](http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf).
+"Fact Sheet - Unmanned Aircraft Systems (UAS)." Federal Aviation Administration, July 2011. Web. 08 Oct. 2013. <http://www.faa.gov/about/initiatives/uas/media/UAS_FACT_Sheet.pdf>.
+
+Van Vuren, R. J. "Model Aircraft Operating Standards." Federal Aviation Administration, 9 June 1981. Web. 08 Oct. 2013. <http://www.faa.gov/documentLibrary/media/Advisory_Circular/91-57.pdf>.
 
 
 ## Test Procedure
