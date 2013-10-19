@@ -271,6 +271,7 @@ The FAA regulations for operation of UAVs will be followed at all times. These r
 
 - code (3 weeks, Nov 25 - Dec 15)
 	- week 6 (Nov 25 - Dec 1)
+		- apm firmware base
 		- object detection
 		- ground station
 	
