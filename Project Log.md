@@ -244,3 +244,56 @@ The quadcopter platform consists of rotors driven by considerably powerful motor
 Due to the nature of quadcopters, it is difficult to avoid many of these risks. However, steps will be taken to attempt to mitigate many of these risks. Rotor guards will be placed around rotors to reduce the potential that they come in contact with something. The rotors themselves will be cheap and flexible so that, in the event that they do contact something, the rotor will break or flex instead of causing damage or injury. During operation and testing, the area of operation will be kept clear of people at all times. In the event that someone enters the area of operation, flight will stop immediately. The control software used on the quadcopter includes failsafes and safety features, such as motor-arming and failsafes for low battery, lost RF signal, etc. Any custom-built software that will operate on the quadcopter will also include these safety features. These safety features and failsafes will be enabled at all times.
 
 The FAA regulations for operation of UAVs will be followed at all times. These regulations include maintaining an altitude of less than 400 feet, not flying within the vicinity of airports, air traffic, or populated areas, and always maintaining line-of-sight to the aircraft and the ability to switch to manual control at any time.
+
+
+## Roadmap
+
+- design (3 weeks, Oct 21 - Nov 10)
+	- week 1 (Oct 21 - Oct 27)
+		- APM-based quadcopter
+	
+	- week 2 (Oct 28 - Nov 3)
+		- sensor board
+		- nav system
+	
+	- week 3 (Nov 4 - Nov 10)
+		- order parts! (allow for 5 day shipping)
+		- ground station
+
+- build (2 weeks, Nov 11 - 24)
+	- week 4 (Nov 11 - Nov 17) 
+		- quadcopter
+		- ground station
+	
+	- week 5 (Nov 18 - Nov 24)
+		- sensors
+		- nav system
+
+- code (3 weeks, Nov 25 - Dec 15)
+	- week 6 (Nov 25 - Dec 1)
+		- object detection
+		- ground station
+	
+	- week 7 (Dec 2 - Dec 8)
+		- path finding algorithm
+	
+	- week 8 (Dec 9 - Dec 15)
+		- path following
+		- misc coding
+
+- test (3 weeks, Dec 16 - Jan 5)
+	- week 9 (Dec 16 - Dec 22)
+		- quadcopter works
+		- absolute location
+	
+	- week 10 (Dec 23 - Dec 29)
+		- object detection
+		- path finding
+		- path following
+	
+	- week 11 (Dec 30 - Jan 5)
+		- misc testing
+		- fix stuff that doesn't work
+
+- write up abstract (.5 weeks, Jan 6 - Jan 8)
+- project fair display (3 weeks, Jan 9 - Jan 31)
