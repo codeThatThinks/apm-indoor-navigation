@@ -6,7 +6,7 @@ Building an indoor navigation system on a quadcopter as a STEM science fair proj
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Ian Glen
+Copyright (c) 2014 Ian Glen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
