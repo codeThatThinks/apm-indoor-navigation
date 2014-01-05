@@ -30,6 +30,8 @@ T 56700 50900 5 10 0 0 270 0 1
 device=DIODE
 T 56600 50800 5 8 1 1 0 0 1
 refdes=D1
+T 56100 51300 5 10 0 0 0 0 1
+footprint=Laser
 }
 C 48500 52500 1 270 0 capacitor.sym
 {
@@ -534,6 +536,8 @@ T 54800 46700 5 8 1 1 0 0 1
 refdes=J1
 T 54800 43400 5 8 1 1 0 0 1
 value=Header
+T 54400 43300 5 10 0 0 0 0 1
+footprint=CONNECTOR 9 2
 }
 C 55700 43100 1 0 0 gnd.sym
 {
