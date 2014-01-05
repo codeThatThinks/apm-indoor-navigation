@@ -1,1 +1,5 @@
 .DS_Store
+schematics/.DS_Store
+schematics/symbols/.DS_Store
+schematics/symbols/MIC5320-MFYD6.mksym
+schematics/symbols/TCM8230MD.mksym
