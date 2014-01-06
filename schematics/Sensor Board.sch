@@ -35,7 +35,7 @@ device=RESISTOR
 T 49800 52800 5 8 1 1 0 0 1
 refdes=R1
 T 49800 52400 5 8 1 1 0 0 1
-value=?R
+value=35R
 T 49800 52600 5 8 1 1 0 0 1
 footprint=0805
 }
