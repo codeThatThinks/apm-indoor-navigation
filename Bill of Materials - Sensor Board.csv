@@ -1,0 +1,34 @@
+Quantity,	References,				Item,						URL,									Unit Price,		Price
+ICs,		,						,							,										,
+1,			U1,						ATmega64A,					http://www.digikey.com/short/qf5bn,		$7.72,			$7.72
+1,			U2,						MIC5320-MFYD6,				http://www.digikey.com/short/qw7mp,		$1.88,			$1.88
+1,			U3,						AS6C6264,					http://www.digikey.com/short/qw7hm,		$1.63,			$1.63
+1,			U4,						MM74HC573MTC,				http://www.digikey.com/short/qw79c,		$0.58,			$0.58
+,			,						,							,										,
+Capacitors,	,						,							,										,
+7,			C1-C7,					0.1uF 0805 capacitor,		http://www.digikey.com/short/qw7br,		$0.10,			$0.70
+2,			C8-C9,					22pF 0805 capacitor,		http://www.digikey.com/short/qw7fh,		$0.10,			$0.20
+,			,						,							,										,
+Diodes,		,						,							,										,
+1,			D1,						1N4148 silicon diode,		http://www.digikey.com/short/qw7vq,		$0.13,			$0.13
+1,			LED_STATUS,				orange 0805 led,			http://www.digikey.com/short/qw71z,		$0.20,			$0.20
+,			,						,							,										,
+Resistors,	,						,							,										,
+1,			R1,						36R 0805 resistor,			http://www.digikey.com/short/qwtc0,		$0.04,			$0.04
+11,			R2-R12,					10K 0805 resistor,			http://www.digikey.com/short/qwt7h,		$0.02,			$0.32
+,			,						,							,										,
+Transistors,,						,							,										,
+5,			Q1-Q5,					BSS138 logic MOSFET,		http://www.digikey.com/short/qwt3q,		$0.22,			$1.10
+,			,						,							,										,
+Switches,	,						,							,										,
+1,			RESET,					momentary push button,		http://www.digikey.com/short/73cj0,		$0.35,			$0.35
+,			,						,							,										,
+Crystals,	,						,							,										,
+1,			Y1,						16MHz Crystal,				http://www.digikey.com/short/qwt53,		$0.93,			$0.93
+,			,						,							,										,
+Headers,	,						,							,										,
+41,			J1-J6,					1x41 male breakaway,		http://www.digikey.com/short/qwtrn,		$0.17,			$4.85
+,			,						,							,										,
+Misc,		,						,							,										,
+2,			-,						Ultrasonic Rangefinder,		http://r.ebay.com/P3Y53F,				$2.75,			$5.49
+,			,						,							,										Total:,			$25.79
