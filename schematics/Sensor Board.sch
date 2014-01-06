@@ -259,7 +259,7 @@ C 54200 47100 1 0 0 ATmega64A.sym
 T 54200 47100 5 1 0 0 0 0 1
 device=ATMEGA64A
 T 54200 47100 5 1 0 0 0 0 1
-footprint=TQFP64
+footprint=TQFP64_14
 T 54600 54400 5 8 1 1 0 0 1
 refdes=U1
 }
