@@ -3,3 +3,8 @@ schematics/.DS_Store
 schematics/symbols/.DS_Store
 schematics/symbols/MIC5320-MFYD6.mksym
 schematics/symbols/TCM8230MD.mksym
+schematics/symbols/AS6C6264.mksym
+schematics/symbols/ATmega64A.mksym
+schematics/symbols/MM74HC573MTC.mksym
+pcbs/.DS_Store
+pcbs/footprints/.DS_Store
