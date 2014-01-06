@@ -1,2 +1,2 @@
-schematics "Sensor Board.sch"
+schematics "Sensor Board.sch" "Sensor Board - Headers.sch"
 output-name sensor-board
