@@ -301,7 +301,7 @@ C 41700 44400 1 0 1 io.sym
 T 41500 45000 5 10 0 0 0 6 1
 device=none
 T 41500 44500 5 8 1 1 0 7 1
-value=AD3
+value=AD2
 T 41700 44400 5 10 0 1 0 0 1
 netname=AD:3
 }
@@ -310,7 +310,7 @@ C 41700 45000 1 0 1 io.sym
 T 41500 45600 5 10 0 0 0 6 1
 device=none
 T 41500 45100 5 8 1 1 0 7 1
-value=AD1
+value=AD0
 T 41700 45000 5 10 0 1 0 0 1
 netname=AD:1
 }
@@ -319,7 +319,7 @@ C 41700 44700 1 0 1 io.sym
 T 41500 45300 5 10 0 0 0 6 1
 device=none
 T 41500 44800 5 8 1 1 0 7 1
-value=AD2
+value=AD1
 T 41700 44700 5 10 0 1 0 0 1
 netname=AD:2
 }
@@ -328,7 +328,7 @@ C 41700 44100 1 0 1 io.sym
 T 41500 44700 5 10 0 0 0 6 1
 device=none
 T 41500 44200 5 8 1 1 0 7 1
-value=AD4
+value=AD3
 T 41700 44100 5 10 0 1 0 0 1
 netname=AD:4
 }
@@ -337,7 +337,7 @@ C 41700 43800 1 0 1 io.sym
 T 41500 44400 5 10 0 0 0 6 1
 device=none
 T 41500 43900 5 8 1 1 0 7 1
-value=AD5
+value=AD4
 T 41700 43800 5 10 0 1 0 0 1
 netname=AD:5
 }
@@ -346,7 +346,7 @@ C 41700 43500 1 0 1 io.sym
 T 41500 44100 5 10 0 0 0 6 1
 device=none
 T 41500 43600 5 8 1 1 0 7 1
-value=AD6
+value=AD5
 T 41700 43500 5 10 0 1 0 0 1
 netname=AD:6
 }
@@ -355,7 +355,7 @@ C 41700 43200 1 0 1 io.sym
 T 41500 43800 5 10 0 0 0 6 1
 device=none
 T 41500 43300 5 8 1 1 0 7 1
-value=AD7
+value=AD6
 T 41700 43200 5 10 0 1 0 0 1
 netname=AD:7
 }
@@ -364,7 +364,7 @@ C 41700 42900 1 0 1 io.sym
 T 41500 43500 5 10 0 0 0 6 1
 device=none
 T 41500 43000 5 8 1 1 0 7 1
-value=AD8
+value=AD7
 T 41700 42900 5 10 0 1 0 0 1
 netname=AD:8
 }
@@ -382,7 +382,7 @@ C 48600 44500 1 0 0 io.sym
 T 48800 45100 5 10 0 0 0 0 1
 device=none
 T 48800 44600 5 8 1 1 0 1 1
-value=AD3
+value=AD2
 T 48600 44500 5 10 0 1 0 0 1
 netname=AD:3
 }
@@ -391,7 +391,7 @@ C 48600 45100 1 0 0 io.sym
 T 48800 45700 5 10 0 0 0 0 1
 device=none
 T 48800 45200 5 8 1 1 0 1 1
-value=AD1
+value=AD0
 T 48600 45100 5 10 0 1 0 0 1
 netname=AD:1
 }
@@ -400,7 +400,7 @@ C 48600 44800 1 0 0 io.sym
 T 48800 45400 5 10 0 0 0 0 1
 device=none
 T 48800 44900 5 8 1 1 0 1 1
-value=AD2
+value=AD1
 T 48600 44800 5 10 0 1 0 0 1
 netname=AD:2
 }
@@ -409,7 +409,7 @@ C 48600 44200 1 0 0 io.sym
 T 48800 44800 5 10 0 0 0 0 1
 device=none
 T 48800 44300 5 8 1 1 0 1 1
-value=AD4
+value=AD3
 T 48600 44200 5 10 0 1 0 0 1
 netname=AD:4
 }
@@ -418,7 +418,7 @@ C 48600 43900 1 0 0 io.sym
 T 48800 44500 5 10 0 0 0 0 1
 device=none
 T 48800 44000 5 8 1 1 0 1 1
-value=AD5
+value=AD4
 T 48600 43900 5 10 0 1 0 0 1
 netname=AD:5
 }
@@ -427,7 +427,7 @@ C 48600 43600 1 0 0 io.sym
 T 48800 44200 5 10 0 0 0 0 1
 device=none
 T 48800 43700 5 8 1 1 0 1 1
-value=AD6
+value=AD5
 T 48600 43600 5 10 0 1 0 0 1
 netname=AD:6
 }
@@ -436,7 +436,7 @@ C 48600 43300 1 0 0 io.sym
 T 48800 43900 5 10 0 0 0 0 1
 device=none
 T 48800 43400 5 8 1 1 0 1 1
-value=AD7
+value=AD6
 T 48600 43300 5 10 0 1 0 0 1
 netname=AD:7
 }
@@ -445,7 +445,7 @@ C 48600 43000 1 0 0 io.sym
 T 48800 43600 5 10 0 0 0 0 1
 device=none
 T 48800 43100 5 8 1 1 0 1 1
-value=AD8
+value=AD7
 T 48600 43000 5 10 0 1 0 0 1
 netname=AD:8
 }
