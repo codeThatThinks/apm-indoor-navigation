@@ -838,72 +838,72 @@ C 56700 54900 1 90 0 io.sym
 T 56100 55100 5 10 0 0 90 0 1
 device=none
 T 56600 55100 5 8 1 1 90 1 1
-value=CAM_D0
+value=CAM_D7
 T 56700 54900 5 10 0 1 0 0 1
-netname=CAMD:1
+netname=CAMD:8
 }
 C 57000 54900 1 90 0 io.sym
 {
 T 56400 55100 5 10 0 0 90 0 1
 device=none
 T 56900 55100 5 8 1 1 90 1 1
-value=CAM_D1
+value=CAM_D6
 T 57000 54900 5 10 0 1 0 0 1
-netname=CAMD:2
+netname=CAMD:7
 }
 C 57300 54900 1 90 0 io.sym
 {
 T 56700 55100 5 10 0 0 90 0 1
 device=none
 T 57200 55100 5 8 1 1 90 1 1
-value=CAM_D2
+value=CAM_D5
 T 57300 54900 5 10 0 1 0 0 1
-netname=CAMD:3
+netname=CAMD:6
 }
 C 57900 54900 1 90 0 io.sym
 {
 T 57300 55100 5 10 0 0 90 0 1
 device=none
 T 57800 55100 5 8 1 1 90 1 1
-value=CAM_D4
+value=CAM_D3
 T 57900 54900 5 10 0 1 0 0 1
-netname=CAMD:5
+netname=CAMD:4
 }
 C 57600 54900 1 90 0 io.sym
 {
 T 57000 55100 5 10 0 0 90 0 1
 device=none
 T 57500 55100 5 8 1 1 90 1 1
-value=CAM_D3
+value=CAM_D4
 T 57600 54900 5 10 0 1 0 0 1
-netname=CAMD:4
+netname=CAMD:5
 }
 C 58200 54900 1 90 0 io.sym
 {
 T 57600 55100 5 10 0 0 90 0 1
 device=none
 T 58100 55100 5 8 1 1 90 1 1
-value=CAM_D5
+value=CAM_D2
 T 58200 54900 5 10 0 0 0 0 1
-netname=CAMD:6
+netname=CAMD:3
 }
 C 58500 54900 1 90 0 io.sym
 {
 T 57900 55100 5 10 0 0 90 0 1
 device=none
 T 58400 55100 5 8 1 1 90 1 1
-value=CAM_D6
+value=CAM_D1
 T 58500 54900 5 10 0 0 0 0 1
-netname=CAMD:7
+netname=CAMD:2
 }
 C 58800 54900 1 90 0 io.sym
 {
 T 58200 55100 5 10 0 0 90 0 1
 device=none
 T 58700 55100 5 8 1 1 90 1 1
-value=CAM_D7
+value=CAM_D0
 T 58800 54900 5 10 0 0 0 0 1
-netname=CAMD:8
+netname=CAMD:1
 }
 C 53900 52100 1 0 1 io.sym
 {
