@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 300000 125000]
 
 Grid[1968.5 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[153543 11811 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1500 1000 1000 1000 1500 1000]
@@ -1239,8 +1239,8 @@ Layer(4 "silk")
 	Line[242000 68000 246000 68000 1000 3000 "clearline"]
 	Line[244000 66000 244000 70000 1000 3000 "clearline"]
 	Line[254000 68000 258000 68000 1000 3000 "clearline"]
-	Text[284500 87500 0 125 "v1.5" "clearline"]
-	Text[216500 87500 0 125 "Laser Rangefinder" "clearline"]
+	Text[220472 86614 0 110 "Laser Rangefinder" "clearline"]
+	Text[283465 86614 0 110 "v1.7" "clearline"]
 	Polygon("clearpoly")
 	(
 		[295603 73347] [292755 72815] [292733 72809] [292587 72690] [292581 72673] 
