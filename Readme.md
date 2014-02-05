@@ -1,8 +1,14 @@
 ## Indoor Navigation System for Multirotors
 
-![Indoor Navigation System for Multirotors](https://raw.github.com/codeThatThinks/INS-for-Multirotors/master/INS%20for%20Multirotors.png)
-
 Building an indoor navigation system on a quadcopter as a STEM science fair project. This repo is for the project log, schematics, drawings, and firmware.
+
+![Indoor Navigation System for Multirotors](INS%20for%20Multirotors.png)
+
+![Laser Rangefinder](pcbs/Laser%20Rangefinder.png)
+
+![Sensor Board](pcbs/Sensor%20Board.png)
+
+![Servo Mount](pcbs/Servo%20Mount.png)
 
 ## License
 

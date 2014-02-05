@@ -11,6 +11,8 @@ Nearly all autonomous multirotors make use of autopilot systems that rely heavil
 
 The goal of this project is to design and build an autopilot system for multirotors that works well in an indoor environment or confined space. This means that the system must not use GPS, detect objects in its vicinity, and determine an appropriate path around such objects. A quadcopter will be used as a platform on which the system will be built.
 
+Stretch goals would include building a self-contained system, minimizing cost, and building a system that is compatible with both ArduPilot autopilot systems and the APM autopilot firmware.
+
 
 ## Research
 ### Quadcopter Absolute Positioning
@@ -64,6 +66,9 @@ The goal of this project is to design and build an autopilot system for multirot
 	- visible light
 	- infrared
 	- https://en.wikipedia.org/wiki/Feature_detection_(computer_vision)
+
+- acoustic
+	- ultrasonic
 
 - radar
 

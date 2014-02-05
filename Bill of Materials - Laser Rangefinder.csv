@@ -1,20 +1,20 @@
-Quantity,	References,				Item,						URL,										Unit Price,		Price
-ICs,		,						,							,											,
-1,			U1,						MIC5320-MFYD6,				http://www.digikey.com/short/qf478,			$1.88,			$1.88
-1,			U2,						TCM8230MD,					https://www.sparkfun.com/products/8667,		$9.95,			$9.95
-,			,						,							,											,
-Capacitors,	,						,							,											,
-3,			C1-C3,					1uF 0805 capacitor,			http://www.digikey.com/short/qf4t4,			$0.10,			$0.30
-3,			C4-C6,					0.1uF 0805 capacitor,		http://www.digikey.com/short/qf4td,			$0.10,			$0.30
-,			,						,							,											,
-Diodes,		,						,							,											,
-1,			D1,						1mW Laser Diode 			-,											$6.00,			$6.00
-,			,						,							,											,
-Resistors,	,						,							,											,
-1,			R1,						2K 0805 resistor,			http://www.digikey.com/short/qf43q,			$0.04,			$0.04
-,			,						,							,											,
-Transistors,,						,							,											,
-1,			Q1,						BC818 NPN transistor,		http://www.digikey.com/short/qf4qb,			$0.21,			$0.21
-Misc,		,						,							,											,
-1,			-,						Full Rotation Micro Servo,	https://www.sparkfun.com/products/10189,	$11.95,			$11.95
-,			,						,							,											Total:,			$30.43
+Quantity,		References,				Item,						URL,										Unit Price,		Price
+ICs,			,						,							,											,
+1,				U1,						MIC5320-MFYD6,				http://www.digikey.com/short/qf478,			$1.88,			$1.88
+1,				U2,						TCM8230MD,					https://www.sparkfun.com/products/8667,		$9.95,			$9.95
+,				,						,							,											,
+Capacitors,		,						,							,											,
+3,				C1-C3,					1uF 0805 capacitor,			http://www.digikey.com/short/qf4t4,			$0.10,			$0.30
+3,				C4-C6,					0.1uF 0805 capacitor,		http://www.digikey.com/short/qf4td,			$0.10,			$0.30
+,				,						,							,											,
+Diodes,			,						,							,											,
+1,				D1,						1mW Laser Diode, 			-,											$6.00,			$6.00
+,				,						,							,											,
+Resistors,		,						,							,											,
+1,				R1,						2K 0805 resistor,			http://www.digikey.com/short/qf43q,			$0.04,			$0.04
+,				,						,							,											,
+Transistors,	,						,							,											,
+1,				Q1,						BC818 NPN transistor,		http://www.digikey.com/short/qf4qb,			$0.21,			$0.21
+Misc,			,						,							,											,
+1,				-,						Full Rotation Micro Servo,	https://www.sparkfun.com/products/10189,	$11.95,			$11.95
+,				,						,							,											Total:,			$30.43
